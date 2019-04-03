@@ -17,7 +17,7 @@ Create a class named `BrowserHistory` which is limited in size and drops least f
 - A revisit on a site (calling add function with same url again) will *refresh* the entry and move it to the most recent position
 - Changing the returned list should not affect the instance of `BrowserHistory`
 
-## Bonusses
+## Bonuses
 
 - The most recent sites can be retrieved through a function `getRecentVisited(int index)`
     - Passing an index that is bigger that is above the current size and within the limit (0..4) will throw an Exception
